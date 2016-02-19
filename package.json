@@ -2,8 +2,6 @@
     "name":                 "bluemix-todo-apps-node",
     "main":                 "./lib/server",
     "description":          "node server for TodoMVC using Cloudant for storage",
-    "version":              "0.1",
-    "private":              false,
     "repository": {
         "type": "git",
         "url": "https://github.com/ibmkaga/CloudDevOps.git"
