@@ -3,4 +3,3 @@ applications:
   host:      CloudDevOps
   command:   node server --verbose -d cloudant
   memory:    128M
-  services:
