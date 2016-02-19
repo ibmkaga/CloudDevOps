@@ -18,7 +18,7 @@ This application supports both Mongo DB and Couch DB ([Cloudant][cloudant_url]) 
 
 4. Edit existing todo items by double-clicking on the corresponding item.
 
-## Running the app on Bluemix with cloudant
+## Running the app on Bluemix
 
 1. Create a Bluemix Account
 
