@@ -4,22 +4,17 @@
     "description":          "node server for TodoMVC using Cloudant for storage",
     "version":              "0.1",
     "private":              false,
-    "engines": {
-        "node": "0.12.*"
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/ibmkaga/CloudDevOps.git"
     },
     "dependencies": {
-        "cfenv":           "1.0.x",
         "express":          "3.4.x",
         "nano":             "4.7.x",
         "nopt":             "2.2.x",
         "ports":            "1.1.x",
         "q":                "1.0.x",
-        "underscore":       "1.6.x",
-        "cf-deployment-tracker-client": "*"
+        "underscore":       "1.6.x"
     },
     "devDependencies": {
         "coffee-script":    "1.7.x",
