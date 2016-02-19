@@ -1,15 +1,15 @@
 {
     "name":                 "bluemix-todo-apps-node",
     "main":                 "./lib/server",
-    "description":          "node server for TodoMVC using CouchDB or Mongo for storage",
-    "version":              "0.1.1",
+    "description":          "node server for TodoMVC using Cloudant for storage",
+    "version":              "0.1",
     "private":              false,
     "engines": {
         "node": "0.12.*"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/IBM-Bluemix/todo-apps.git"
+        "url": "https://github.com/ibmkaga/CloudDevOps.git"
     },
     "dependencies": {
         "cfenv":           "1.0.x",
@@ -19,7 +19,6 @@
         "ports":            "1.1.x",
         "q":                "1.0.x",
         "underscore":       "1.6.x",
-        "monk":             "0.8.x",
         "cf-deployment-tracker-client": "*"
     },
     "devDependencies": {
@@ -29,8 +28,9 @@
     },
     "author": [
         {
-            "name": "James Thomas",
-            "email": "thomas6@uk.ibm.com"
+            "//" : "Originally developed by James Thomas.",
+            "name": "Kapil Gambhir",
+            "email": "kgambhir@in.ibm.com"
         }
     ],
     "contributors": [
